@@ -8,6 +8,7 @@ export default class Calculator extends React.Component {
   render() {
     return (
       <div className="calculator">
+
         <Display value={100} />
         <Button label="AC" />
         <Button label="/" />
