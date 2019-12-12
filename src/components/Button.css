@@ -11,3 +11,28 @@
   border-bottom: var(--border-buttton);
   outline: none;
 }
+
+.button:active {
+  background-color: #ccc;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.button.double {
+  grid-column: span 2;
+}
+
+.button.triple {
+  grid-column: span 3;
+}
+
+.button.operation {
+  background-color: #fa8231;
+  color: #fff;
+}
+
+.button.operation:active {
+  background-color: #fa8231cc;
+  font-size: 1.2em;
+  font-weight: bold;
+}
